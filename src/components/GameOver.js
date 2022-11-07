@@ -1,7 +1,5 @@
 import React, { useContext } from 'react'
-import App, { AppContext } from '../App'
-import Popup  from 'reactjs-popup';
-import 'reactjs-popup/dist/index.css';
+import { AppContext } from '../App'
 
 const GameOver = () => {
     const {gameOver,correctWord,currAttempt,setCorrectWord} = useContext(AppContext)
